@@ -53,7 +53,7 @@ class TemaDosView extends Component {
           <Row>
             <Col xs="12" style={{ padding: '0' }}>
               <Accordion>
-                <Col className=" btn  bg-fondo-btn bordeAcordeon " style={{backgroundColor:'#737276', padding:'0px',}}>
+                <Col className=" btn  bg-fondo-btn bordeAcordeon  " style={{backgroundColor:'#737276', padding:'0px',}}>
                   <Accordion.Toggle as={Button} variant="link" eventKey="0" >
                     <span className="text-light ">In Bound</span>
                   </Accordion.Toggle>
@@ -77,9 +77,7 @@ class TemaDosView extends Component {
                                 }}
                               >
                                 <div className=" text-center ">
-                                  <p className="pt-3 mb-2">
-                                    <b>Guía In</b>
-                                  </p>
+                                <b>Guía In</b>
                                 </div>
                               </NavLink>
                             </NavItem>
@@ -100,9 +98,7 @@ class TemaDosView extends Component {
                                   color="primary"
                                   className="dark text-center"
                                 >
-                                  <p className="pt-3 mb-2">
-                                    <b>Rubros In</b>
-                                  </p>
+                                   <b>Rubros In</b>
                                 </div>
                               </NavLink>
                             </NavItem>
@@ -122,9 +118,7 @@ class TemaDosView extends Component {
                                   color="primary"
                                   className="dark text-center"
                                 >
-                                  <p className="pt-3 mb-2">
-                                    <b>Script In</b>
-                                  </p>
+                                  <b>Script In</b>
                                 </div>
                               </NavLink>
                             </NavItem>
@@ -183,9 +177,7 @@ class TemaDosView extends Component {
                               }}
                             >
                               <div className=" text-center ">
-                                <p className="pt-3 mb-2">
-                                  <b>Guía Out</b>
-                                </p>
+                              <b>Guía Out</b>
                               </div>
                             </NavLink>
                           </NavItem>
@@ -203,9 +195,7 @@ class TemaDosView extends Component {
                               }}
                             >
                               <div color="primary" className="dark text-center">
-                                <p className="pt-3 mb-2">
-                                  <b>Rubros Out</b>
-                                </p>
+                              <b>Rubros Out</b>
                               </div>
                             </NavLink>
                           </NavItem>
@@ -222,9 +212,7 @@ class TemaDosView extends Component {
                               }}
                             >
                               <div color="primary" className="dark text-center">
-                                <p className="pt-3 mb-2">
-                                  <b>Script Out</b>
-                                </p>
+                              <b>Script Out</b>
                               </div>
                             </NavLink>
                           </NavItem>
@@ -282,9 +270,7 @@ class TemaDosView extends Component {
                               }}
                             >
                               <div className=" text-center ">
-                                <p className="pt-3 mb-2">
-                                  <b>Guía Sporte</b>
-                                </p>
+                              <b>Guía Sporte</b>
                               </div>
                             </NavLink>
                           </NavItem>
@@ -302,9 +288,7 @@ class TemaDosView extends Component {
                               }}
                             >
                               <div color="primary" className="dark text-center">
-                                <p className="pt-3 mb-2">
-                                  <b>Rubros Sporte</b>
-                                </p>
+                              <b>Rubros Sporte</b>
                               </div>
                             </NavLink>
                           </NavItem>
@@ -321,9 +305,7 @@ class TemaDosView extends Component {
                               }}
                             >
                               <div color="primary" className="dark text-center">
-                                <p className="pt-3 mb-2">
-                                  <b>Script Sporte</b>
-                                </p>
+                              <b>Script Sporte</b>
                               </div>
                             </NavLink>
                           </NavItem>
@@ -381,9 +363,7 @@ class TemaDosView extends Component {
                               }}
                             >
                               <div className=" text-center ">
-                                <p className="pt-3 mb-2">
-                                  <b>Guía WhatsApp</b>
-                                </p>
+                              <b>Guía WhatsApp</b>
                               </div>
                             </NavLink>
                           </NavItem>
@@ -401,9 +381,7 @@ class TemaDosView extends Component {
                               }}
                             >
                               <div color="primary" className="dark text-center">
-                                <p className="pt-3 mb-2">
-                                  <b>Criterios WhatsApp</b>
-                                </p>
+                              <b>Criterios WhatsApp</b>
                               </div>
                             </NavLink>
                           </NavItem>
@@ -420,9 +398,7 @@ class TemaDosView extends Component {
                               }}
                             >
                               <div color="primary" className="dark text-center">
-                                <p className="pt-3 mb-2">
-                                  <b>Plantilla WhatsApp</b>
-                                </p>
+                              <b>Plantilla WhatsApp</b>
                               </div>
                             </NavLink>
                           </NavItem>
@@ -439,9 +415,7 @@ class TemaDosView extends Component {
                               }}
                             >
                          
-                                <p className="pt-3 mb-2">
-                                  <b>Rubros Mail</b>
-                                </p>
+                         <b>Rubros Mail</b>
                          
                             </NavLink>
                           </NavItem>
