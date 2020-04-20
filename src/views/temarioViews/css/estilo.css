@@ -187,7 +187,7 @@ td,th{
 	
 	  }
 
-	  .btnFocus:visited {
+	  .btnAct:focus {
 		background-color: #3e21b3 !important;
 	}
 
