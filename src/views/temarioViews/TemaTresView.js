@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Card, CardBody, CardHeader, Col, Row, Button } from 'reactstrap'
+import {  CardBody, CardHeader, Col, Row, Button } from 'reactstrap'
 import temaTresView from '../../assets/img/img-cursoQA/temaTresView.jpg'
 import Modal1 from './componentsExtras/modales'
 import {
@@ -34,7 +34,7 @@ class TemaDosView extends Component {
   render() {
     return (
       <div className="animated fadeIn">
-        <Card>
+      
           <CardHeader className="text-left">
             <h3>Lineamientos generales de la Metodología</h3>
           </CardHeader>
@@ -107,7 +107,7 @@ class TemaDosView extends Component {
               </Col>
               <Col xs="12" className="centrado-distribuido">
                 <Button
-                  className="btnAct bg-fondo-btn"
+                  className="btnAct bg-fondo-btn text-danger"
                   style={{ width: '90px', height: '58px' }}
                   
                   onClick={() => this.toggleM(1)}
@@ -117,7 +117,7 @@ class TemaDosView extends Component {
 
                 <Button
                 
-                className="btnAct bg-fondo-btn"
+                className="btnAct bg-fondo-btn text-danger"
                   style={{ width: '90px', height: '58px' }}
                 
                   onClick={() => this.toggleM(2)}
@@ -126,7 +126,7 @@ class TemaDosView extends Component {
                 </Button>
 
                 <Button
-                className="btnAct bg-fondo-btn"
+                className="btnAct bg-fondo-btn text-danger"
                   style={{ width: '90px' }}
                   
                   onClick={() => this.toggleM(3)}
@@ -142,7 +142,7 @@ class TemaDosView extends Component {
               </Col>
             </Row>
           </CardBody>
-        </Card>
+  
       </div>
     )
   }
