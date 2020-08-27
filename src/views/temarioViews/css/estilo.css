@@ -6,12 +6,16 @@
 	}
 
 .bg-fondo-btn{
-	background-color: #737276 !important;
+	background-color:#C8CED3 !important;
+	color:black !important;
+}	
+.bg-fondo-btn2{
+	background-color:  #737276 !important;
 	color:white !important;
 }	
 
 .bordeAcordeon{
-	border-bottom: 1px solid #29363d !important;
+	border-bottom: 1px solid #737276	 !important;
 }
 
 
@@ -187,9 +191,7 @@ td,th{
 	
 	  }
 
-	  .btnAct:focus {
-		background-color: #3e21b3 !important;
-	}
+	  
 
 
 
