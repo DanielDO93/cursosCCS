@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Card, CardBody, CardHeader, Col, Row } from 'reactstrap'
+import {  CardBody, CardHeader, Col, Row } from 'reactstrap'
 import {
   TablaLineaHistorico,
   TablasImputables,
@@ -15,7 +15,7 @@ class TemaDosView extends Component {
   render() {
     return (
       <div className="animated fadeIn ">
-        <Card>
+      
           <CardHeader className="text-left">
             <h3>Lineamientos generales de la Metodología</h3>
           </CardHeader>
@@ -129,7 +129,7 @@ class TemaDosView extends Component {
               </Col>
             </Row>
           </CardBody>
-        </Card>
+      
       </div>
     )
   }
