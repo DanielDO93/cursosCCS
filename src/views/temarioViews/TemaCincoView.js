@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import {
-  Card,
   CardBody,
   CardHeader,
   Col,
@@ -50,7 +49,6 @@ class TemaDosView extends Component {
   render() {
     return (
       <div className="animated fadeIn">
-        <Card>
           <CardHeader className="text-left">
             <h3>Descripción del procedimiento</h3>
           </CardHeader>
@@ -60,91 +58,74 @@ class TemaDosView extends Component {
                 <Nav tabs className="text-center">
                   <NavItem className="d-flex justify-content-center">
                     <NavLink
-                     style={{backgroundColor: '#737276'}}
+                     //style={{backgroundColor: '#737276'}}
                       className={
                         (classnames({
                           active: this.state.activeTab === '1',
                         }),
-                        ' btn text-light btnAct')
+                        ' btn bg-fondo-btn text-center text-danger')
                        
                       }
                       onClick={() => {
                         this.toggle('1')
                       }}
                     >
-                      <div className=" text-center ">
-                        
-                          <b>1. Monitoreo</b>
-                      
-                      </div>
+                       <b>1. Monitoreo</b>
                     </NavLink>
                   </NavItem>
 
                   <NavItem>
                     <NavLink
-                     style={{backgroundColor: '#737276'}}
                       className={
                         (classnames({
                           active: this.state.activeTab === '2',
                         }),
-                        ' btn text-light btnAct')
+                        ' btn bg-fondo-btn text-center text-danger')
                       }
                       onClick={() => {
                         this.toggle('2')
                       }}
                     >
-                      <div color="primary" className=" text-center">
-                        
-                          <b>2. Retroalimentación</b>
-                      
-                      </div>
+                      <b>2. Retroalimentación</b>
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink
-                     style={{backgroundColor: '#737276'}}
                       className={
                         (classnames({
                           active: this.state.activeTab === '3',
                         }),
-                        ' btn text-light btnAct')
+                        ' btn bg-fondo-btn text-center text-danger')
                       }
                       onClick={() => {
                         this.toggle('3')
                       }}
                     >
-                      <div color="primary" className=" text-center">
-                        
-                          <b>2.1. Coaching</b>
-                      
-                      </div>
+                       <b>2.1. Coaching</b>
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink
-                     style={{backgroundColor: '#737276'}}
                       className={
                         (classnames({
                           active: this.state.activeTab === '4',
                         }),
-                        ' btn text-light btnAct')
+                        ' btn bg-fondo-btn text-center text-danger')
                       }
                       onClick={() => {
                         this.toggle('4')
                       }}
                     >
-                      <div color="primary" className=" text-center">
-                        
-                          <b>2.2. FODA</b>
-                        
-                      </div>
+                      <b>2.2. FODA</b>
                     </NavLink>
                   </NavItem>
                 </Nav>
               </Col>
               <Col xs="12">
-                <TabContent activeTab={this.state.activeTab}>
-                  <TabPane tabId="0">
+                <TabContent  style={{border:'none'}} activeTab={this.state.activeTab}>
+                  <TabPane tabId="0" 
+                     
+                  >
                     <p></p>
                   </TabPane>
                   <TabPane tabId="1">
@@ -272,10 +253,10 @@ class TemaDosView extends Component {
                         ) : null}
                       </div>
                       <Col xs="12 " className="centrado-distribuido ">
-                        <Button className="btnAct" color="dark" onClick={() => this.toggleM(5)}>
+                        <Button  className="btnAct bg-fondo-btn" onClick={() => this.toggleM(5)}>
                           Excepciones
                         </Button>
-                        <Button className="btnAct" color="dark" onClick={() => this.toggleM(6)}>
+                        <Button  className="btnAct bg-fondo-btn" onClick={() => this.toggleM(6)}>
                           Error Fatal
                         </Button>
                       </Col>
@@ -425,7 +406,7 @@ class TemaDosView extends Component {
               </Col>
             </Row>
           </CardBody>
-        </Card>
+    
       </div>
     )
   }
