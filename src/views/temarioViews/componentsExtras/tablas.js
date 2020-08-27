@@ -7,7 +7,7 @@ class TablaInBoundGuia extends Component {
       <div>
         <Col xs="12" className="centrado-fila">
           <table className="table table-bordered table-responsive ">
-            <thead class="">
+            <thead >
               <tr>
                 <th className="bg-danger text-white" scope="col">
                   CAMPAÑA IN
@@ -112,7 +112,7 @@ class TablaInBoundRubros extends Component {
         <Row>
           <Col xs="6"></Col>
           <Col xs="6">
-            <table class="table table-striped">
+            <table className="table table-striped">
               <tbody>
                 <tr>
                   <th>Código</th>
@@ -714,7 +714,7 @@ class TablaOutBoundRubros extends Component {
         <Row>
           <Col xs="6"></Col>
           <Col xs="6">
-            <table class="table table-striped">
+            <table className="table table-striped">
               <tbody>
                 <tr>
                   <th>Código</th>
@@ -1184,7 +1184,7 @@ class TablaSoporteGuia extends Component {
       <Col xs="12" className="centrado-fila">
         <di>
           <table className="table table-bordered table-responsive ">
-            <thead class="">
+            <thead className="">
               <tr>
                 <th className="bg-danger text-white" scope="col">
                   Rubro
@@ -1296,7 +1296,7 @@ class TablaSoporteRubros extends Component {
         <Row>
           <Col xs="6"></Col>
           <Col xs="6">
-            <table class="table table-striped ">
+            <table className="table table-striped ">
               <tbody>
                 <tr>
                   <th>Código</th>
@@ -1738,7 +1738,7 @@ class TablaWhCriterios extends Component {
         <Row>
           <Col xs="6"></Col>
           <Col xs="6">
-            <table class="table table-striped ">
+            <table className="table table-striped ">
               <tbody>
                 <tr>
                   <th>Código</th>
@@ -2265,7 +2265,7 @@ class TablaWhRubros extends Component {
         <Row>
           <Col xs="6"></Col>
           <Col xs="6">
-            <table class="table table-striped">
+            <table className="table table-striped">
               <tbody>
                 <tr>
                   <th>Código</th>
@@ -2456,7 +2456,7 @@ class TablaVentas extends Component {
       <Col xs="12" className="centrado-fila">
         <div>
           <table className="table table-bordered table-responsive  ">
-            <thead class="">
+            <thead >
               <tr>
                 <th
                   style={{ border: 'solid 1px' }}
@@ -2535,7 +2535,7 @@ class TablasVentasOut extends Component {
       <Col xs="12" className="centrado-fila">
         <div>
           <table className="table table-bordered table-responsive  ">
-            <thead class="">
+            <thead >
               <tr>
                 <th
                   style={{ border: 'solid 1px' }}
@@ -2620,7 +2620,7 @@ class TablaLineaHistorico extends Component {
       <Col xs="12" className="centrado-fila">
         <div>
           <table className="table table-bordered table-responsive ">
-            <thead class="">
+            <thead >
               <tr>
                 <th
                   style={{ border: 'solid 1px' }}
@@ -2657,7 +2657,7 @@ class TablasImputables extends Component {
       <Col xs="12" className="centrado-fila">
         <div>
           <table className="table table-bordered table-responsive">
-            <thead class="">
+            <thead >
               <tr>
                 <th
                   colspan="2"
@@ -2729,7 +2729,7 @@ class TablaMonitoreo extends Component {
       <Col xs="12" className="centrado-fila">
         <div>
           <table className="table table-bordered  table-responsive ">
-            <thead class="">
+            <thead >
               <tr>
                 <th
                   colspan=""
@@ -3352,9 +3352,6 @@ class TablaControlCambios extends Component {
     )
   }
 }
-
-
-
 
 export {
   TablaInBoundGuia,
